@@ -1,0 +1,14 @@
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.csproj.AssemblyReference.cache
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.AssemblyInfoInputs.cache
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.AssemblyInfo.cs
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.csproj.CoreCompileInputs.cache
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\bin\Debug\netcoreapp3.1\PracticaFinal.exe
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\bin\Debug\netcoreapp3.1\PracticaFinal.deps.json
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\bin\Debug\netcoreapp3.1\PracticaFinal.runtimeconfig.json
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\bin\Debug\netcoreapp3.1\PracticaFinal.runtimeconfig.dev.json
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\bin\Debug\netcoreapp3.1\PracticaFinal.dll
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\bin\Debug\netcoreapp3.1\PracticaFinal.pdb
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.dll
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.pdb
+D:\UNI\4-Curso\Cuatr1\CoCo\Tareas\PracticaFinal\PracticaFinal\PracticaFinal\obj\Debug\netcoreapp3.1\PracticaFinal.genruntimeconfig.cache

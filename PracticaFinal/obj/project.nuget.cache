@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7RkEGildOkbUAG0R8jD42lMEgNNdWl8FlUBnLqPtuMt+C0Zfb+vqEcDzItlQIR2znGHrAjGZ4leyFUCbGZdtsw==",
+  "success": true,
+  "projectFilePath": "D:\\UNI\\4-Curso\\Cuatr1\\CoCo\\Tareas\\PracticaFinal\\PracticaFinal\\PracticaFinal\\PracticaFinal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
+  ],
+  "logs": []
+}
