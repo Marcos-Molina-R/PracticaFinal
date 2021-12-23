@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq; //array.Contains(variable);
-                   //Array.IndexOf(stringArray, value); si el resultado es -1, esta value en la stringarray
+using System.Linq; 
 /*
  * 
  * El problema de las 8 reinas
@@ -22,7 +21,14 @@ namespace PracticaFinal
         static void Main(string[] args)
         {
             List<Tuple<int, int>> CoordenadasReinas = new List<Tuple<int, int>>();
-            //las dos primeras reinas se colocarán de manera aleatoria, tal y como el paradijma probabilista nos pide
+            Console.WriteLine("EL PROBLEMA DE LAS REINAS");
+            Console.Write("Primero, dado que uso el paradigma de las vegas, elige cuantas reinas serán asignadas de forma aleatoria (se recomiendan 2): ");
+            int pos = Convert.ToInt32(Console.ReadLine());
+            if(pos < 8 && pos >= 0)
+            {
+                NumeroPosicionesAleatorias = pos;
+            }
+            //las primeras reinas se colocarán de manera aleatoria, tal y como el paradijma probabilista nos pide
             var random = new Random();
             Console.WriteLine("Posiciones de las reinas introducidas aleatoriamente:");
             for (int i = 0; i < NumeroPosicionesAleatorias; i++)
@@ -62,12 +68,6 @@ namespace PracticaFinal
                 {
                     for (int j = 0; j < 8; j++)
                     {
-                        /*
-                        bool posAdecuada = true;
-                        foreach (Tuple<int, int> reina in coordenadas)
-                        {
-                            if (ComprobarFilasYColumnas(reina, i, j)) { posAdecuada = false; } //si las posiciones son 
-                        }*/
                         if (!ComprobarPosicion(coordenadas, i, j))
                         {
                             //guardo las coordenadas sin introducir las nuevas coordenadas
@@ -94,7 +94,12 @@ namespace PracticaFinal
                         }
                     }
                 }
-                return coordenadas; // creo que es redundante pero si ya he recorrido todo el tablero y no ha encontrado todas las coordenadas devuelve la lista que le han pasado 
+                if (coordenadas.Count != 8)
+                {
+                    //Si ya he recorrido todo el tablero y no ha encontrado todas las coordenadas devuelve la lista que le han pasado menos el elemento anterior
+                    coordenadas.RemoveAt(coordenadas.Count - 1);
+                    return coordenadas;
+                }
             }
             return coordenadas;
         }
@@ -102,11 +107,15 @@ namespace PracticaFinal
         static void PrintCoordenadas(List<Tuple<int, int>> coordenadas)
         {
             Console.WriteLine("Coordenadas finales de las reinas posicionadas:");
-            Console.WriteLine("\t X  Y");
+            int incremento = 1;
+            Console.WriteLine("\tX  Y");
+            Console.WriteLine("       ------");
             foreach(Tuple<int,int> coordenada in coordenadas)
             {
-                Console.WriteLine("\t{0} {1}", coordenada.Item1, coordenada.Item2);
+                Console.WriteLine("{2}\t{0}  {1}", coordenada.Item1, coordenada.Item2,incremento);
+                incremento++;
             }
+            if(incremento != 8) { Console.WriteLine("[-] No se han podido encontrar las 8 reinas con las posiciones aleatorias dadas"); }
         }
 
         static bool ComprobarPosicion(List<Tuple<int, int>> CoordenadasReinas, int x, int y)
