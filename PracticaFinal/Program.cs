@@ -52,7 +52,7 @@ namespace PracticaFinal
             CoordenadasReinas = Bacotraco(CoordenadasReinas, 0);
             PrintCoordenadas(CoordenadasReinas);
         }
-        //POR AHORA ES VOID AUNQUE ESTO VA A CAMBIAR A MEDIDA QUE VAYA AVANZANDO EL PROGRAMA, JUNTO CON ESTE COMENTARIO
+        //Algoritmo backtracking
         static List<Tuple<int, int>> Bacotraco(List<Tuple<int, int>> coordenadas, int x) 
         {
             // Recorremos el tablero si no hay 8 reinas colocadas
@@ -85,6 +85,11 @@ namespace PracticaFinal
                             //si la nueva lista es igual a la antigua, significa que el algoritmo no ha encontrado las 8 reinas con esta nueva posicion
                             if (nuevaLista == antiguasCoordenadas) {
                                 coordenadas = antiguasCoordenadas;
+                            }
+                            // si la nueva lista esta completa, con las 8 reinas, hacemos un return
+                            if(nuevaLista.Count() == 8)
+                            {
+                                return nuevaLista;
                             }
                         }
                     }
@@ -142,7 +147,7 @@ namespace PracticaFinal
             //diagonal superior izquierda
             int i = reina.Item1;
             int j = reina.Item2;
-            for (; i <= 0 && j <= 0; i--, j--)
+            for (; i >= 0 && j >= 0; i--, j--)
             {
                 if (x == i & y == j)
                 {
@@ -152,7 +157,7 @@ namespace PracticaFinal
             //diagonal inferior izquierda
             i = reina.Item1;
             j = reina.Item2;
-            for (; i <= 0 && j > 8; i--, j++)
+            for (; i >= 0 && j < 8; i--, j++)
             {
                 if (x == i & y == j)
                 {
@@ -162,7 +167,7 @@ namespace PracticaFinal
             //diagonal superior derecha
             i = reina.Item1;
             j = reina.Item2;
-            for (; i > 8 && j <= 0; i++, j--)
+            for (; i < 8 && j >= 0; i++, j--)
             {
                 if (x == i & y == j)
                 {
@@ -172,7 +177,7 @@ namespace PracticaFinal
             //diagonal superior izquierda
             i = reina.Item1;
             j = reina.Item2;
-            for (; i > 8 && j > 8; i++, j++)
+            for (; i < 8 && j < 8; i++, j++)
             {
                 if (x == i & y == j)
                 {
