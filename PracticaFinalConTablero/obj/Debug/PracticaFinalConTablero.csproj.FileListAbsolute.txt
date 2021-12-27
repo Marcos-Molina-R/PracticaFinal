@@ -1,0 +1,11 @@
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\bin\Debug\PracticaFinalConTablero.exe.config
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\bin\Debug\PracticaFinalConTablero.exe
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\bin\Debug\PracticaFinalConTablero.pdb
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.csproj.AssemblyReference.cache
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.csproj.SuggestedBindingRedirects.cache
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.Properties.Resources.resources
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.csproj.GenerateResource.cache
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.csproj.CoreCompileInputs.cache
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.exe
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.pdb
+D:\Repositorios\COCO\PracticaFinalConTablero\PracticaFinalConTablero\obj\Debug\PracticaFinalConTablero.Form1.resources
