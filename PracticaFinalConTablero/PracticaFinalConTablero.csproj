@@ -80,7 +80,6 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="Bibliografía.txt" />
       <Content Include="queen.png" />
       <Content Include="Resources\queen.png" />
     </ItemGroup>

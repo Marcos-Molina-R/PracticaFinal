@@ -1,2 +1,0 @@
-﻿https://www.csharp411.com/console-output-from-winforms-application/ ---> 26/12/2021
-https://stackoverflow.com/questions/6733310/creating-a-chess-board-using-windows-forms ---> 27/12/2021

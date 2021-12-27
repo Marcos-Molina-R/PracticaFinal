@@ -27,7 +27,6 @@ namespace PracticaFinalConTablero
             // redirect console output to parent process;
             // must be before any calls to Console.WriteLine()
             AttachConsole( ATTACH_PARENT_PROCESS );
-            Console.WriteLine("prueba");
             
             //
             List<Tuple<int, int>> CoordenadasReinas = new List<Tuple<int, int>>();
